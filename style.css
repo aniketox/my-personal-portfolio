@@ -1,0 +1,230 @@
+```css
+/* General Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #0645ad;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 14px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #0645ad;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #cce0ff;
+}
+
+/* Main Sections */
+section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #ccc;
+}
+
+/* About Me */
+#about img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 4px solid #cce0ff;
+}
+
+#about p {
+    max-width: 650px;
+    margin: 15px auto;
+    font-size: 14px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #0645ad;
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #003580;
+}
+
+/* Skills Table */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #0645ad;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #0645ad;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Projects */
+.project {
+    background-color: white;
+    width: 60%;
+    margin: 15px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ddd;
+}
+
+.project h3 {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 14px;
+}
+
+/* Contact Form */
+form {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #0645ad;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    font-family: Arial, sans-serif;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: 1px solid #0645ad;
+    border-color: #0645ad;
+}
+
+form button {
+    background-color: #0645ad;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px 0 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #003580;
+}
+
+/* Footer */
+footer {
+    background-color: #0645ad;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #0645ad;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    nav a {
+        margin: 0 6px;
+        font-size: 12px;
+    }
+
+    table,
+    .project,
+    form {
+        width: 95%;
+    }
+
+    #about img {
+        width: 170px;
+        height: 170px;
+    }
+}
+```

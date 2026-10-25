@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal portfolio </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id ="top">
+    <header>
+        <h1>My portfolio</h1>
+        <p>Web development / future developer</p>
+
+    </header>
+    <!--navigation Bar-->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Project</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main id="home">
+        <section id ="about">
+            <h2>About Me</h2>
+
+            <img src="images/profile.jpg" alt="my profile photo" width="150">
+            <p>Hello my name is Aniket kumar.
+                i am a student learning HTML,CSS and web development.my goals is to become a professional web developer
+            </p>
+            <a href ="contact" class="button">Contact me</a>
+
+        </section>
+        
+        <hr>
+        <!--Skills Table-->
+        <section id="skills">
+            <h2>my technical skills</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Skills</th>
+                        <th>Level</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                        
+
+                    </tr>
+                    <tr>
+                        <td>python</td>
+                        <td>beginer</td>
+                        
+
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+        <hr>
+        <!--project section-->
+        <section id ="projects">
+            <h2>My project</h2>
+
+            <div class="project">
+                <h3>project 1:Registration form</h3>
+                <p>A simple registration form using HTML and CSS</p>
+
+            </div>
+
+            <div class="project">
+                <h3>project 2: student Table</h3>
+                <p>A student information table styled with css</p>
+
+            </div>
+
+        </section>
+
+        <hr>
+
+        <!--Contact form-->
+        <section id="contact">
+            <h2>contact me</h2>
+            <form action="#" method="post">
+             
+                <lable for="name">Full Name:</lable>
+                <input type="text" id="name"name="name"placeholder="Enter your name" required>
+
+                <br><br>
+
+                <lable for="email">Email:</lable>
+                <input type ="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <br><br>
+
+                <lable for="subject">Subject</lable>
+                <input type="text" id="subject" name="subject" placeholder="Enter subject" required>
+
+                <br><br>
+
+                <lable for="message">Message:</lable>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message" required></textarea>
+
+                <br><br>
+
+                <button type="submit">send message</button>
+                <button type="reset">Reset</button>
+
+            </form>
+
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <p>&copy;2026 Your Name. All right reserved</p>
+    </footer>
+    
+    <a href="#top" class="back-to-top">Back to Top</a>
+</body>
+</html>
